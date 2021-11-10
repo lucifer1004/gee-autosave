@@ -1,3 +1,5 @@
 # Google Earth Engine Autosave
 
-Autosave your code when using Google Earth Engine code editor, in case you forget to save the code you are editing before closing the tab or switching to other files.
+Google Earth Engine is a very useful tool. However, one must manually click the "save" button to save the code. This can cause loss of code when one unintendedly close the editor tab, or the tab crashes unexpectedly. 
+
+This extension aims at preventing such loss by saving your code locally (in Chrome's localStorage), and restore the code when you open the same file (or a new file) again. The absolute file path is used to avoid collisions.
